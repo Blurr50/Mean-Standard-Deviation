@@ -59,7 +59,7 @@ public class Main {
 		frame.getContentPane().add(fileButton);
 
 		JLabel lblNewLabel_1 = new JLabel("Standard Deviation: ");
-		lblNewLabel_1.setBounds(29, 165, 109, 14);
+		lblNewLabel_1.setBounds(29, 165, 173, 14);
 		frame.getContentPane().add(lblNewLabel_1);
 
 		JLabel lblNewLabel_2 = new JLabel("Mean: ");
@@ -67,11 +67,11 @@ public class Main {
 		frame.getContentPane().add(lblNewLabel_2);
 
 		mean = new JLabel("");
-		mean.setBounds(140, 111, 192, 14);
+		mean.setBounds(212, 111, 192, 14);
 		frame.getContentPane().add(mean);
 
 		stdDeviation = new JLabel("");
-		stdDeviation.setBounds(140, 165, 192, 14);
+		stdDeviation.setBounds(212, 165, 192, 14);
 		frame.getContentPane().add(stdDeviation);
 	}
 
